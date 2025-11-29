@@ -1,0 +1,124 @@
+
+/* Styles pour les sections de contact */
+.contact-person {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px var(--shadow);
+    transition: transform 0.3s;
+}
+
+.contact-person:hover {
+    transform: translateY(-5px);  
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+    overflow: hidden;
+    box-shadow: 0 4px 6px var(--shadow);
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.details p {
+    font-size: 16px;
+    line-height: 1.6;
+    
+}
+
+.details strong {
+    color: var(--bordeaux);
+}
+
+/* Footer */
+footer {
+    background-color: var(--bordeaux);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: var(--blanc-casse);
+}
+
+body {
+    font-family: "Georgia", serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Ajout de l'espace entre les contacts */
+    margin: 20px;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%; 
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.image-container {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.image-container img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.content-container {
+    text-align: center;
+}
+
+.content-container p {
+        margin: 5px 0;
+    
+}
+
+.centered-text {
+    text-align: center;
+}
